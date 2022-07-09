@@ -1,0 +1,66 @@
+/* .mySlides {
+	display: none;
+} */
+
+body {
+	background-color: rgb(130, 173, 236);
+	font-family: Verdana, sans-serif;
+	margin-left: auto;
+}
+
+.head {
+	margin-top: 20px;
+	margin-right: 20vw;
+	margin-left: 20vw;
+	text-align: center;
+	font-size: 30px;
+	background-color: #d8fd08;
+	color: rgb(30, 23, 63);
+	border-radius: 19px;
+	font-weight: bolder;
+}
+
+.data-container {
+	width: 500px;
+	height: 400px;
+	position: relative;
+	margin:auto;
+}
+
+.bar {
+	margin-left: auto;
+	width: 28px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: rgb(255, 255, 255);
+	transition: 0.2s all ease;
+}
+
+.bar__id {
+	position: absolute;
+	top: -24px;
+	width: 100%;
+	text-align: center;
+}
+.btn1 {
+	padding: 12px;
+	font-weight: bolder;
+	background-color: #6f459e;
+	border-radius: 10px;
+	color: white;
+	font-size: 16px;
+	border: white;
+	margin-left: 30vw;
+	margin-top: 4vw;
+	margin-right: 1vw;
+}
+.btn2,.btn3,.btn4 {
+	padding: 12px;
+	font-weight: bolder;
+	background-color: #6f459e;
+	border-radius: 10px;
+	color: white;
+	font-size: 16px;
+	border: white;
+}
