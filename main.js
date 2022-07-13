@@ -32,7 +32,7 @@ async function SelectionSort(delay = 100) {
       await new Promise((resolve) =>
         setTimeout(() => {
           resolve();
-        }, 100)
+        }, 300)
       );
 
       var val1 = parseInt(bars[j].childNodes[0].innerHTML);
@@ -59,7 +59,7 @@ async function SelectionSort(delay = 100) {
     await new Promise((resolve) =>
       setTimeout(() => {
         resolve();
-      }, 100)
+      }, 300)
     );
 
     bars[min_idx].style.backgroundColor = " rgb(24, 190, 255)";
@@ -96,14 +96,14 @@ async function BubbleSort(delay = 100) {
       await new Promise((resolve) =>
         setTimeout(() => {
           resolve();
-        }, 100)
+        }, 300)
       );
     }
 
     await new Promise((resolve) =>
       setTimeout(() => {
         resolve();
-      }, 100)
+      }, 300)
     );
 
     bars[bars.length - i - 1].style.backgroundColor = " rgb(49, 226, 13)";
